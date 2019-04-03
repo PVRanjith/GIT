@@ -28,6 +28,8 @@ GIT Branching commands
 git branch BranchNAME
 git checkout branchname
 git push -u origin branchname
+git branch -d newfeature
+
 
 
 

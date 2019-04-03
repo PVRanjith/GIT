@@ -1,0 +1,36 @@
+Local repo is called Master
+Central repo called as Origin (Github is also known as remote/origin)
+
+
+
+Starting Git Commands
+
+git config --global user.name "PVRanjith"
+git config --global user.email "@acc.com"
+git config --edit --global (to edit  globbal username n password)
+git config core.editor "notepad++ -multiInst  -nosession" (change the default editor)
+git init (initialize a git local repo)
+git remote add origin remote_repository_URL (Sets the new remote)
+git clone(download a project from remote)
+git add(prepare a file to staging file i.e files which are ready to commit)
+git commit(file in a repo)
+
+
+
+git clone (to clone from GitHub)
+git status (to check what files needs to be commited/untracked files in the working directory)
+git add . (command makes git to track files in the working directory that are untracked)
+git commit -m " asdsad    " 
+git push (commit to origin)
+git pull
+
+GIT Branching commands 
+git branch BranchNAME
+git checkout branchname
+git push -u origin branchname
+
+
+
+GIT
+
+Distributed Source management system
